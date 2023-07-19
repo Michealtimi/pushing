@@ -13,7 +13,6 @@ export default function Body(){
         console.log('numpeople: ', numPeople)
 
         if (billAmount === "" || howWasYourservice == 0) {
-            window.alert("Please fill in all details")
             //display error
             return;
         }
